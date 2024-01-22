@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog scientifique</title>
+    <!-- font et icons de themify -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/themify-icons/css/themify-icons.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles_2.css">
+</head>
+
+<body class="bgp">
+    <header class="cp">
+        <nav>
+            <ul>
+                <li><a href="index.html">Page d'accueil</a></li>
+                <li><a href="#1">Introduction</a></li>
+                <li><a href="#2">Les défis</a></li>
+                <li><a href="#3">Traitement basé sur les pixels ou sur les objets</a></li>
+                <li><a href="#4">Processus de jugement d’expert</a></li>
+                <li><a href="page_initial.html">Page initial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div>
+        <div class="bgpp">
+            <section class="first">
+                <div>
+                    <p>
+                    <h4>
+                        Surveillance de zone — Concept de haut niveau
+                    </h4>
+                    <br>
+                    <br>
+                    <div>
+                        <p>
+                            L'obligation de surveiller et de contrôler les subventions importantes de la Politique
+                            agricole commune (PAC) accordées
+                            chaque année à des millions de parcelles agricoles dans tous les États membres européens
+                            (EM) a stimulé le progrès
+                            technologique et l'adoption de toutes les technologies géospatiales existantes et
+                            émergentes, y compris la
+                            télédétection, plus que tout autre en Europe au cours des trois dernières décennies. Par
+                            conséquent, l’avancement et la
+                            disponibilité opérationnelle gratuite des Sentinelles Copernicus exigeaient que leur
+                            utilisation soit également
+                            sérieusement envisagée pour générer des économies de coûts et une efficacité opérationnelle
+                            dans le processus de
+                            contrôle.
+                            Deux des tâches les plus exigeantes de la PAC comprennent les contrôles sur place (OTSC) —
+                            qui exigent que les
+                            inspecteurs se rendent sur le terrain et vérifient la situation de leurs propres yeux — et
+                            le contrôle par télédétection
+                            (CWRS), où des mesures spatiales à grande échelle sont disponibles dans le commerce. des
+                            images satellite récentes de
+                            haute résolution sont utilisées pour vérifier à distance la culture des champs, en se
+                            rendant sur le terrain uniquement
+                            en cas d'incertitude ou d'ambiguïté. Ces deux opérations sont coûteuses, nécessitant
+                            l’attribution de tâches et l’achat
+                            d’images satellite coûteuses, soutenues par une main-d’œuvre qualifiée importante et des
+                            déplacements dans des régions
+                            éloignées du pays dans des délais serrés. Même si ces contrôles ne concernent « que » 5 %
+                            des exploitations, ils
+                            nécessitent néanmoins des millions d’euros chaque année.
+                        </p>
+                    </div>
+
+                    <h3> Cet article fait partie d'une série de blogs liés à notre travail dans le domaine de la
+                        surveillance de zone. Sinergise - Sep 1, 2020</h3>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <section id="1">
+
+            <h2> I. Introduction </h2>
+
+            <p class="alinea">
+                L'obligation de surveiller et de contrôler les subventions importantes de la Politique agricole commune
+                (PAC) accordées
+                chaque année à des millions de parcelles agricoles dans tous les États membres européens (EM) a stimulé
+                le progrès
+                technologique et l'adoption de toutes les technologies géospatiales existantes et émergentes, y compris
+                la
+                télédétection, plus que tout autre en Europe au cours des trois dernières décennies.
+            </p>
+            <p>Deux des tâches les plus exigeantes de la PAC comprennent les contrôles sur place (OTSC) — qui exigent
+                que les
+                inspecteurs se rendent sur le terrain et vérifient la situation de leurs propres yeux — et le contrôle
+                par télédétection
+                (CWRS), où des mesures spatiales à grande échelle sont disponibles dans le commerce. des images
+                satellite récentes de
+                haute résolution sont utilisées pour vérifier à distance la culture des champs, en se rendant sur le
+                terrain uniquement
+                en cas d'incertitude ou d'ambiguïté.
+            </p>
+
+            <p class="alinea">
+                Ces deux opérations sont coûteuses, nécessitant l’attribution de tâches et l’achat d’images satellite
+                coûteuses,
+                soutenues par une main-d’œuvre qualifiée importante et des déplacements dans des régions éloignées du
+                pays dans des
+                délais serrés. Même si ces contrôles ne concernent « que » 5 % des exploitations, ils nécessitent
+                néanmoins des millions
+                d’euros chaque année.
+            </p>
+
+            <p class="alinea">
+                L’anticipation initiale immédiate était que des images intra-saisonnières presque continues et
+                disponibles gratuitement
+                remplaceraient facilement les contrôles OTSC et CWRS coûteux et encombrants. Cependant, la complexité de
+                la tâche ainsi
+                que la faible résolution, le bruit et le volume des données Sentinel nécessitent d'importantes
+                recherches et
+                développements en matière de traitement avancé des données et d'apprentissage automatique (ML) avant que
+                nous puissions
+                atteindre un déploiement optimal et le plus élevé possible. valeur ajoutée des Sentinelles Copernicus
+                dans le processus
+                de la PAC. L'attente de perfection, du moins à notre avis, a retardé l'utilisation des données Sentinel
+                au moins pour
+                certaines parties des processus.
+            </p>
+
+            <p>
+            <figure>
+                <img alt="img1" src="assets/imgs/blog_scifi/NDVI.gif">
+                <h3>
+                    Figure 1: Un profil NDVI typique de plusieurs types de cultures (à gauche, source), dérivé d'une
+                    situation réelle de quatre ans à
+                    Küçükyıldız, en Turquie (à droite) — un défi pour vous, faites correspondre ces deux !
+                </h3>
+
+            </figure>
+            </p>
+
+
+
+
+        </section>
+
+        <section id="2">
+
+            <h2>II. Les défis</h2>
+
+            <p class="alinea">
+                Les contrôles sur place sont fondamentalement différents de ce que l'on peut faire avec Sentinel et ML.
+                Tout d’abord,
+                ils sont liés à des observations très détaillées et précises, mesurant souvent les limites de la
+                parcelle avec une
+                précision de quelques pour cent (et au mètre près). Il est donc difficile de les remplacer par la
+                résolution de 10
+                mètres de Sentinel (ou de 20 mètres dans le cas de Sentinel-1). Le deuxième problème est probablement
+                encore plus
+                important : les contrôles existants sont conçus pour être 100 % corrects et reproductibles (hypothèse
+                qui n’a pas été
+                testée de manière approfondie depuis un certain temps). Si l’audit externe révélait des divergences dans
+                le processus de
+                contrôle, celles-ci étaient généralement liées à des sanctions financières importantes pour l’organisme
+                payeur du pays.
+                Cependant, pour les techniques de ML, il est, presque par définition, impossible de mettre en œuvre un
+                processus correct
+                à 100 % et entièrement reproductible. Après tout, ils reposent sur une approche statistique. <br /> />
+                /> /> /> />
+                Les données supplémentaires que nous obtenons grâce aux signaux Sentinel peuvent fournir de nombreuses
+                réponses, mais
+                pas toutes : il existe des limites pour les petites parcelles, pour les parcelles situées dans des
+                régions nuageuses du
+                monde ainsi que pour les mesures, qui ne peuvent tout simplement pas être observées avec de telles
+                données. Quelle que
+                soit la réponse obtenue, elle doit être prise en compte ; lorsqu'il n'y en a pas, il faut trouver un
+                autre moyen de
+                vérifier une mesure spécifique ou décider de l'omettre en raison de son impact insignifiant sur le
+                budget. Pour ceux qui
+                restent, il existe toujours un « plan de secours » : effectuer des contrôles à l’ancienne sur 5 % de
+                l’échantillon
+                (restant). Le processus « Contrôles par surveillance » réduit donc simplement la charge en confirmant
+                une partie
+                (significative) des mesures et permet à l'Agence de se concentrer sur des choses qui ne peuvent être
+                faites autrement.
+            </p>
+
+            <p>
+            <figure>
+                <img alt="img5" src="assets/imgs/blog_scifi/Structure_du_terrain_en_France.jpg">
+                <h3>
+                    Figure 2: Structure du terrain en France (à gauche, source : Valtzen via <a
+                        href="https://x.com/Valtzen/status/1287120451383316493?s=20" target="_blank">Twitter</a>)
+                    et en Arabie Saoudite (à droite, source : scénario de Harel Dan via <a
+                        href="https://x.com/sentinel_hub/status/1239504728964444160?s=20" target="_blank">Twitter</a>)
+                </h3>
+            </figure>
+            </p>
+
+            <p class="alinea">
+                Premièrement, les mesures typiques de la PAC demandent généralement aux agriculteurs de déclarer un type
+                de culture
+                parmi des centaines, sur la base des spécificités locales (par exemple les variétés inter-espèces) de la
+                mesure ou de
+                disposer de bonnes statistiques au niveau national. Les variétés spécifiques du type de culture ne
+                peuvent pas être
+                distinguées par télédétection (certaines ne peuvent même pas être discriminées par le contrôle sur le
+                terrain) et
+                fournissent une image mitigée qui brouille la LM. Il faut donc regrouper les groupes de cultures, ce qui
+                n’est pas
+                anodin car on souhaiterait que les regroupements respectent également les spécificités monétaires des
+                mesures. Il y a
+                ensuite le cas des cultures ultérieures la même année, qui se produisent dans certaines parcelles, mais
+                pas dans
+                d’autres, ce qui rend plus difficile la détection d’un « type de culture spécifique ».
+            </p>
+
+            <p class="alinea">
+                Il existe un défi encore plus important, fondamental, dans la classification des cultures — alors que
+                les méthodes ML
+                généralement utilisées sont très efficaces pour attribuer un ensemble spécifique d'observations («
+                signal ») dans la «
+                classe la plus similaire » avec les classes de probabilité associées, etc. n'est pas conçu pour trouver
+                la réponse «
+                n'appartient à aucune classe ». Cela rend presque impossible la détermination des « zones illisibles »
+                ou le signalement
+                de mesures potentiellement problématiques.
+            </p>
+
+            <p class="alinea">
+                Enfin et surtout, la classification des types de cultures est très complexe, associant les algorithmes
+                de boîte noire de
+                ML, les cycles de croissance de la végétation, les activités humaines telles que l'ensemencement, le
+                labour et la tonte,
+                les conditions climatiques locales, les pratiques agricoles et bien d'autres encore. Cette complexité
+                rend très
+                difficile la compréhension des résultats (et leurs limites), leur amélioration et, surtout, leur
+                traduction en décisions
+                concrètes.
+            </p>
+        </section>
+
+        <section id="3">
+
+            <h2>III. Traitement basé sur les pixels ou sur les objets</h2>
+
+            <p class="alinea">
+                La plupart des marqueurs sont basés sur des images satellite, où la terre est représentée par un pixel
+                d'une taille
+                spécifique. Les méthodes ML nous permettent de détecter les propriétés de chaque pixel individuel
+                (parfois même de
+                manière plus détaillée, en utilisant des techniques de super-résolution). En plus d'être l'approche
+                technologique la
+                plus simple, cette méthode peut également être perçue comme la méthode privilégiée car elle produit des
+                résultats plus
+                détaillés. Cependant, cette méthode présente également des inconvénients majeurs. <br />
+            </p>
+
+            <p>
+                Plus de données signifie également plus de bruit. Les résultats pourraient être plus détaillés, mais ils
+                seront
+                globalement moins cohérents. Il y a aussi une partie technique : une parcelle d'un hectare est composée
+                de 100 pixels.
+                Si nous remplaçons ces 100 pixels par un nœud de données moyennes en zone, nous réduisons la complexité
+                du traitement de
+                plusieurs ordres de grandeur. Cela ne réduit pas seulement les coûts globaux, mais, plus important
+                encore, cela réduit
+                considérablement le temps d'analyse, permettant ainsi d'itérer plus rapidement. Les données
+                statistiquement agrégées
+                sont généralement également plus claires, produisant de meilleurs résultats.
+
+                L’approche privilégiée consiste donc à développer des modèles principalement au niveau objet. Dans de
+                nombreux cas, ces
+                modèles sont également directement utilisables sur la base des pixels, ce qui permet d'obtenir le
+                meilleur des deux
+                mondes. Par exemple, une classification de la couverture terrestre basée sur les pixels pourrait être
+                effectuée pour
+                permettre la détection de non-conformités au sein de parcelles sélectionnées/priorisées.
+            </p>
+
+            <p class="alinea">
+                segments (1.32 m flat-to-flat) of three optical prescriptions. Each primary mirror segment and the
+                secondary mirror are mechanized to provide
+                in-flight position adjustment in 6 degrees of freedom. The primary mirror segments also have capability
+                for in-flight radius of curvature
+                adjustment. A fine steering mirror is located near a pupil position. This mirror is servo controlled
+                using an image-based fine guidance
+                sensor located in the science instrument focal plane to enable 7 milliarcseconds rms pointing stability.
+                The mirrors are polished to a cryogenic
+                figure error of approximately 20 nm rms via an iterative polishing and cryogenic test process (Gallagher
+                2011). Gold was selected as a mirror
+                coating to provide high throughput over the 0.6 - 29 micron spectrum. This coating choice limits the
+                JWST to wavelengths &gt;0.6 um. The 29 um
+                long wavelength limit results from detector technology and cooling constraints. Manufacturing, coating,
+                and final cryogenic testing of all
+                telescope mirrors has been completed (Figure 5). Their performance has been verified through test to be
+                within specification in every respect
+                (Feinberg et al. 2012).
+            </p>
+
+            <p>
+            <figure>
+                <img src="assets/imgs/blog_scifi/Cultures_en_feu.jpg">
+                <h3>
+                    Figure 3: Cultures en feu (source : <a href="https://x.com/Valtzen/status/1277246226933710849?s=20"
+                        target="_blank">Twitter</a> de Valtzen)
+                </h3>
+            </figure>
+            </p>
+
+            <p class="alinea">
+                La traduction des marqueurs et des signaux est définie comme des « scénarios » et des « voies » dans la
+                méthodologie du
+                JRC. Le terme le plus couramment utilisé par les organismes payeurs pour signifier la même chose est
+                « règles
+                commerciales ». Les marqueurs peuvent être utilisés exactement de la même manière que l’évaluation des
+                règles métier,
+                par exemple pour évaluer la règle « L’exploitant agricole a-t-il identifié une irrégularité dans le
+                passé ?
+            </p>
+
+            <p class="alinea">
+                Le défi consiste à identifier les marqueurs et les critères correspondants qui peuvent confirmer avec
+                suffisamment de
+                précision si une mesure spécifique est appropriée ou non pour une parcelle ou une exploitation
+                spécifique. En raison de
+                la nature intrinsèquement incertaine des probabilités dans les statistiques, ainsi que des conséquences
+                extrêmement
+                négatives d’une personne accusée à tort d’irrégularités, une approche consistant à « rechercher le bien
+                » plutôt que de
+                « trouver le mal » est préférable. Des scénarios sont conçus pour passer au crible toutes les mesures
+                appliquées et
+                confirmer, avec un certain niveau de probabilité, qu'une mesure est correcte. De cette manière, la
+                grande majorité des
+                mesures qui ont été confirmées comme étant correctes peuvent être filtrées et il n'en restera qu'un
+                petit pourcentage,
+                pour lequel une autre solution doit être trouvée.
+            </p>
+
+            <p>
+            <figure>
+                <img src="assets/imgs/blog_scifi/Comparaison_NDVI.jpg">
+                <h3>
+                    Figure 4: Comparaison des séries chronologiques NDVI de Sentinel-2 (vert) et PlanetScope (orange)
+                    pour un ensemble de petites parcelles.
+                </h3>
+            </figure>
+            </p>
+
+            <p class="alinea">
+                Petites parcelles — La recommandation du JRC stipule qu'il convient d'établir une zone tampon interne de
+                10 mètres et de
+                disposer ensuite d'au moins 5 pixels complets pour éviter les effets de frontière et garantir des
+                statistiques
+                représentatives. Ces conditions posent des problèmes importants dans les pays où les parcelles sont
+                petites, notamment
+                les plus étroites. Ces recommandations n’étant pas gravées dans le marbre, le buffer peut être réduit,
+                voire nul, en
+                utilisant les pixels qui se trouvent entièrement à l’intérieur du polygone (en utilisant le système de
+                coordonnées
+                source du satellite pour éviter les erreurs de reprojection). Ou encore celles qui se chevauchent dans
+                une large mesure,
+                mais qui traversent également les parcelles voisines d'une culture similaire. De plus, au lieu d’exiger
+                cinq pixels
+                restants, on peut se contenter d’un seul. Toutes ces décisions réduiront l’exactitude des résultats,
+                mais l’impact sera
+                probablement « négatif » : en raison d’un mélange de classes ou d’une erreur statistique, il existe une
+                chance
+                importante qu’un marqueur ne confirme pas la mesure.
+            </p>
+        </section>
+
+        <section id="4">
+
+            <h2>IV. Processus de jugement d’expert</h2>
+            <p class="alinea">
+                Comme déjà mentionné, un processus ML peut effectuer de nombreuses étapes et décisions. On s’attend
+                cependant à ce que
+                des milliers, voire des dizaines de milliers de cas restent à vérifier « à la main », car ils ne
+                correspondent tout
+                simplement pas au modèle ML avec le degré de précision approprié. Cependant, avec une application de
+                jugement d'expert
+                bien intégrée, un opérateur peut traiter chacun de ces cas en quelques secondes. L’application doit être
+                parfaitement
+                adaptée au processus afin de garantir une efficacité élevée : toutes les données pertinentes (y compris
+                les signaux et
+                les balises) doivent être à la disposition de l’opérateur, la plus pertinente étant déjà au premier
+                plan. L’opérateur
+                devrait être capable, dans la plupart des cas, de consulter diverses cartes et graphiques de séries
+                chronologiques et de
+                prendre une décision oui/non/impossible presque immédiatement. Ce n'est que dans les cas les plus
+                complexes
+                (inhabituels) que cela devrait nécessiter un examen visuel des données disponibles. Les décisions prises
+                par les
+                opérateurs doivent ensuite être renvoyées au processus ML pour améliorer la précision de l'itération
+                suivante.
+            </p>
+
+            <p class="alinea">
+                Une solution parfaite n'est pas possible à l'heure actuelle, mais une combinaison de techniques
+                automatisées basées sur
+                le ML avec un processus de jugement manuel efficace basé sur des experts, qui peut fournir des
+                informations et recycler
+                les bases de ML, devrait produire des améliorations itératives et exponentielles.
+                Un système informatique bien conçu, qui intègre diverses étapes et options de traitement sous forme de
+                microservices,
+                est un outil essentiel pour que l'ensemble de la chaîne puisse être entièrement automatisé et que les
+                étapes ne soient
+                pas dupliquées. Aucune étape manuelle ne devrait être requise dans la chaîne de traitement pour éviter
+                les retards et
+                garantir une itération rapide en étant capable de reproduire les résultats immédiatement.
+            </p>
+
+            <p class="alinea">
+                La plupart des étapes décrites ci-dessus peuvent être effectuées à distance et de manière générique et
+                il devrait être
+                possible d'évoluer vers la commande de services de marqueurs, de la même manière que l'on peut commander
+                des données
+                VHR. Dans la plupart des cas, ceux-ci ne nécessiteront pas de personnalisation approfondie. Un apport
+                indispensable est
+                une couche de revendications (polygones, cultures, mesures) ; le reste peut souvent être dérivé
+                directement des données.
+                La meilleure approche pour utiliser de telles solutions consiste à utiliser des « microservices » sous
+                forme d’API, qui
+                peuvent être facilement intégrés aux outils existants de PA.
+            </p>
+
+            <p class="alinea">
+                Enfin et surtout, il y a la considération du choix des mesures. Celles-ci ont généralement évolué au fil
+                des années et
+                des années de décisions politiques, souvent sans lien pertinent avec la « situation sur le terrain ».
+                Lors de
+                l'évolution vers un processus de surveillance de zone, il convient d'accepter qu'il ne sera tout
+                simplement pas possible
+                de vérifier toutes les mesures à l'aide de données satellitaires. Certains devront donc être contrôlés
+                différemment
+                (idéalement par rapport à d'autres procédures opérationnelles ; par exemple, les vignobles permanents —
+                difficiles à
+                observer avec l'imagerie Sentinel à 10 mètres — sont généralement tenus de déclarer leur exploitation
+                dans divers
+                registres). Pour certains, la décision de les abandonner peut être nécessaire car elles constituent des
+                obstacles peu
+                pragmatiques à un processus simplifié.
+            </p>
+
+            <p>
+            <figure>
+                <img src="assets/imgs/blog_scifi/Model_parcel.jpg">
+            </figure>
+            </p>
+
+            <p>
+            <figure>
+                <h3>Figure 5: Exemple de quatre patchlets (lignes) 256 x 256 utilisés pour l'entraînement du modèle.
+                    Tous les modèles sont formés en
+                    fournissant en entrée une image à 4 bandes avec les bandes B-G-R-NIR 10 m Sentinel-2, normalisées
+                    par rapport à l'image.
+                    la moyenne du DN et l'écart type calculés par mois (colonne de gauche). Les modèles tentent de
+                    prédire 3 masques raster
+                    en sortie, c'est-à-dire l'étendue, la limite et la distance (pas un masque binaire).
+                </h3>
+            </figure>
+            </p>
+
+            <p class="alinea">
+                Cet article fait partie d'une série de blogs liés à notre travail dans le domaine de la surveillance de
+                zone. Nous
+                avons
+                décidé de partager ouvertement nos connaissances sur ce sujet car nous pensons que la discussion et la
+                comparaison
+                des
+                approches sont nécessaires entre tous les groupes impliqués. Nous serions heureux de recevoir tout type
+                de
+                commentaires,
+                d’idées et de leçons apprises. Pour ceux qui souhaitent le faire publiquement, nous sommes heureux de
+                les accueillir
+                dans cet endroit. Ecrit par Sinergise.
+            <figure>
+                <h3>Source originale : <a href="https://medium.com/sentinel-hub/area-monitoring-concept-effc2c262583"
+                        target="_blank">Medium</a>
+                </h3>
+            </figure>
+            </p>
+        </section>
+        <script>
+            window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            }
+        </script>
+    </div>
+    <!-- button pour retour en haut de la page -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up ti-arrow-circle-up"></i>
+    </button>
+    <!-- script js de button pour retour en haut de la page -->
+    <script>
+        // script js de button pour retour en haut de la page
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // quand on va defiler la page ver le bas,
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        // au dela de 20px le bouton va apparaitre, sinon il sera caché
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

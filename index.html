@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bienvenue</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles_2.css" />
+</head>
+
+<body>
+  <div id="start"></div>
+
+  <header>
+    <div class="bg">
+      <div class="content">
+        <div class="box" id="link1">
+          <div class="top">
+            <img alt="discovery" src="assets/imgs/bienvenue_icon/discovery.png" />
+          </div>
+          <div class="mid">
+            <h2>Blog scientifique</h2>
+          </div>
+          <div class="bot">
+            <p>
+              Lisez le document de conférence sur la Surveillance de zone agricole
+            </p>
+          </div>
+        </div>
+
+        <div class="box" id="link3">
+          <div class="top">
+            <img alt="pics" src="assets/imgs/bienvenue_icon/logo.png" />
+          </div>
+          <div class="mid">
+            <h2>Page initiale</h2>
+          </div>
+          <div class="bot">
+            <p>
+              Bienvenue sur notre site informatif. Nous espérons que vous allez passer un bon moment !
+            </p>
+          </div>
+        </div>
+
+        <div class="box" id="link2">
+          <div class="top">
+            <img alt="news" src="assets/imgs/bienvenue_icon/news.png" />
+          </div>
+          <div class="mid">
+            <h2>Actualités</h2>
+          </div>
+          <div class="bot">
+            <p>Le Réseau de Télédétection INRAE</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <div id="bottom"></div>
+
+  <script>
+    document.querySelector("#link1").onclick = function () {
+      window.open("blog_scientifique.html") || window.location("blog_scientifique.html");
+    };
+
+    document.querySelector("#link2").onclick = function () {
+      window.open("https://reseau-teledetection.hub.inrae.fr/ressources/publications") ||
+        window.location("https://reseau-teledetection.hub.inrae.fr/ressources/publications");
+    };
+
+    document.querySelector("#link3").onclick = function () {
+      window.open(
+        "page_initial.html"
+      ) ||
+        window.location(
+          "page_initial.html"
+        );
+    };
+  </script>
+</body>
+
+</html>

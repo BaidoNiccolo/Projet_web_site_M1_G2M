@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page initiale</title>
+
+    <!-- font et icons de themify -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- Script js -->
+    <script src="assets/js/script.js"></script> <!-- jquery + boot -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- affix de bootstrap - permet à un élément d'être verrouillé sur une zone de la page. Ceci est souvent utilisé avec
+            les menus de navigation ou les boutons d'icônes sociales -->
+    <script src="assets/vendors/bootstrap/js/bootstrap.affix.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Page de Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo_orig.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service i</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#temoigne">Temoigne</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_self">Contactez nous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-sm ml-lg-3"
+                            href="https://www.flickr.com/photos/sentinelhub/albums" target="_blank">Découvrez nos
+                            albums</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin de Page de Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h6 class="subtitle">Projet universitaire pour Master G2M à l'Université Paris VIII</h6>
+            <h1 class="title">Mon Site</h1>
+            <div class="buttons text-center">
+                <a href="https://dataspace.copernicus.eu/ecosystem/services/cap-area-monitoring-services"
+                    class="btn btn-primary rounded w-lg btn-lg my-1" target="_blank">Notre Service</a>
+                <a href="https://medium.com/sentinel-hub/how-to-normalize-satellite-images-for-deep-learning-d5b668c885af"
+                    class="btn btn-outline-light rounded w-lg btn-lg my-1" target="_blank">Deep Learning</a>
+            </div>
+        </div>
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- Box -->
+    <div class="box text-center">
+        <div class="box-item">
+            <i class="ti-signal"></i>
+            <h6 class="box-title">Télédétection</h6>
+            <p>La télédétection est l'ensemble des techniques utilisées pour déterminer à distance les propriétés
+                d'objets naturels ou
+                artificiels à partir des rayonnements qu'ils émettent ou réfléchissent.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-filter"></i>
+            <h6 class="box-title">Filtrer les infos</h6>
+            <p>Le filtrage de l'information est un processus qui consiste à extraire d'une masse importante les
+                informations les plus
+                pertinentes. Il s'agit de proposer à l'utilisateur un contenu pertinent.</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-mobile"></i>
+            <h6 class="box-title">Connecter le monde</h6>
+            <p>Connecter le monde, tout le monde, un super-pouvoir du numérique.
+                Ce super-pouvoir du numérique, c’est celui que l’on utilise le plus au quotidien, parfois sans même s’en
+                rendre compte.</p>
+        </div>
+    </div>
+    <!-- End of Box -->
+
+    <!-- À propos de Copernicus Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="assets/imgs/About/eu_copernicus_b_2_remake.png" alt="a_propos"
+                        class="w-100 img-thumbnail mb-3">
+                    <a href="https://www.copernicus.eu/fr/propos-de-copernicus" class="d-block mt-3" target="_blank">En
+                        Savoir Plus...</a>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-subtitle mb-0">À propos de Copernicus</h6>
+                    <h6 class="section-title mb-3">Brief apperçu de programme</h6>
+                    <p>Copernicus est le programme d’observation de la Terre de l’Union européenne, qui permet de
+                        surveiller
+                        notre planète et son environnement pour le bénéfice, in fine, des citoyens européens.</p>
+                    <p>Copernicus est servi par un ensemble de satellites dédiés (la famille des Sentinel) et des
+                        missions contributrices
+                        (satellites publics et commerciaux existants). Les satellites Sentinel sont spécifiquement
+                        conçus pour répondre aux
+                        besoins des services d’information Copernicus et de leurs utilisateurs.</p>
+                    <p>Le programme est financé, coordonné et géré par la Commission européenne en collaboration avec
+                        des partenaires tels que
+                        l’Agence spatiale européenne (ESA). L'écosystème Copernicus Data Space aide les utilisateurs à
+                        accéder, visualiser, utiliser, télécharger et analyser les
+                        données. L’écosystème spatial de données Copernicus est créé pour améliorer encore l’accès et
+                        l’exploitation des données
+                        des satellites Copernicus de l’UE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de À propos de Copernicus Section -->
+
+    <!-- On voit Section -->
+    <section class="has-bg-img py-md">
+        <div class="container text-center">
+            <h6 class="section-subtitle wdg">On voit</h6>
+            <h6 class="section-title mb-6">Ce que les autres ne voient pas</h6>
+            <div class="widget mb-4">
+                <div class="widget-item">
+                    <i class="ti-world"></i>
+                    <h4>Observe</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-image"></i>
+                    <h4>Exploite</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-settings"></i>
+                    <h4>Traite</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-server"></i>
+                    <h4>Diffuse</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de On voit Section -->
+
+    <!-- Services d'information Copernicus -->
+    <section id="service">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Services d'information Copernicus</h6>
+            <h5 class="section-title text-center mb-6">Divisés en 8 portefeuilles</h5>
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-user text-primary"></i></h2>
+                            <h6 class="card-title">Agriculture</h6>
+                            <p>L’agriculture est probablement le marché qui devrait le plus bénéficier des retombées de
+                                Copernicus, notamment grâce à
+                                l’agriculture de précision.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/agriculture"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-layout-column4 text-primary"></i></h2>
+                            <h6 class="card-title">Forêts</h6>
+                            <p>Les données d’observation de la Terre servent à cartographier les forêts et les
+                                changements forestiers et à produire des cartes à l’appui des inventaires forestiers
+                                nationaux.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/gestion-des-forets"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-shine text-primary"></i></h2>
+                            <h6 class="card-title">Tourisme</h6>
+                            <p>Copernicus contribue à la mise en œuvre de services de surveillance de la qualité des
+                                eaux côtières qui
+                                aident les autorités publiques à améliorer la protection des eaux de baignade.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/tourisme"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-light-bulb text-primary"></i></h2>
+                            <h6 class="card-title">Énergie</h6>
+                            <p>Les données fournies par Copernicus peuvent alimenter des applications permettant, entre
+                                autres, de prévoir la
+                                production d’énergie solaire et éolienne,</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/energie-et-ressources-naturelles"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-home text-primary"></i></h2>
+                            <h6 class="card-title">Urbanisme</h6>
+                            <p>Copernicus peut les aider à relever ces défis en leur fournissant des informations sur la
+                                classification de
+                                l’utilisation et de l’occupation des sols, la croissance urbaine, les espaces verts
+                                urbains, les îlots de chaleur
+                                urbains, l’imperméabilité, etc.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/urbanisme"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-car text-primary"></i></h2>
+                            <h6 class="card-title">Transports</h6>
+                            <p>Les transports représentent un secteur économique important de l’UE et la sécurité des
+                                passagers est une priorité pour
+                                les transporteurs, les gouvernements et les autorités locales.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/transports"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-pie-chart text-primary"></i></h2>
+                            <h6 class="card-title">Développement</h6>
+                            <p>Copernicus offre également à l’industrie européenne la possibilité d’adapter aux marchés
+                                non européens des produits
+                                d’observation de la Terre basés sur les données et informations de Copernicus.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/developpement-et-cooperation"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-heart-broken text-primary"></i></h2>
+                            <h6 class="card-title">Santé</h6>
+                            <p>L’un des facteurs critiques affectant la santé publique est la pollution atmosphérique,
+                                qui génère plusieurs centaines
+                                de milliers de décès prématurés chaque année en Europe attribuables aux particules fines
+                                présentes dans l’air que nous
+                                respirons.</p>
+                            <a href="https://www.copernicus.eu/fr/propos-de-copernicus/impact-de-copernicus/sante"
+                                class="d-block mt-3" target="_blank"><i class="ti-info-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio">
+        <div class="container text-center">
+            <h6 class="section-subtitle">Découvrez nos quelques réalisations</h6>
+            <h6 class="section-title mb-5">Notre Portfolio</h6>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-1.jpg" alt="Portfolio_1">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Sardaigne, Italie</h5>
+                                <a title="icon-zoom" href="assets/imgs/Portfolio/folio-1.jpg"><i
+                                        class="ti-zoom-in"></i></a>
+                                <a title="icon-lien"
+                                    href="https://www.esa.int/ESA_Multimedia/Images/2021/01/Sardinia_Italy"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-2.jpg" alt="Portfolio_2">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Lagune vénitienne déserte</h5>
+                                <a href="assets/imgs/Portfolio/folio-2.jpg"><i class="ti-zoom-in"></i></a>
+                                <a href="https://www.esa.int/ESA_Multimedia/Images/2020/04/Deserted_Venetian_lagoon"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-3.jpg" alt="Portfolio_3">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Forêt Brésil</h5>
+                                <a href="assets/imgs/Portfolio/folio-3.jpg"><i class="ti-zoom-in"></i></a>
+                                <a href="https://www.esa.int/ESA_Multimedia/Images/2023/12/Forest_Brazil"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-4.jpg" alt="Portfolio_4">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Naukluft coloré</h5>
+                                <a href="assets/imgs/Portfolio/folio-4.jpg"><i class="ti-zoom-in"></i></a>
+                                <a href="https://www.esa.int/ESA_Multimedia/Images/2016/04/Colourful_Naukluft"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-5.png" alt="Portfolio_5">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>The Triple Frontier</h5>
+                                <a href="assets/imgs/Portfolio/folio-5.png"><i class="ti-zoom-in"></i></a>
+                                <a href="https://www.esa.int/ESA_Multimedia/Images/2023/02/Earth_from_Space_The_Triple_Frontier"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/Portfolio/folio-6.jpg" alt="Portfolio_6">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Site d'étude HyNutri en Italie</h5>
+                                <a href="assets/imgs/Portfolio/folio-6.jpg"><i class="ti-zoom-in"></i></a>
+                                <a href="https://www.esa.int/ESA_Multimedia/Images/2023/10/HyNutri_study_site_in_Italy"
+                                    target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- equipe Section -->
+    <section id="equipe">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Rencontrez nos spationautes</h6>
+            <h6 class="section-title mb-5 text-center">Nos Héroïnes et nos Héros</h6>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/Thomas_Pesc.jpg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Thomas Pesquet</h5>
+                            <p>Né le 27 février 1978 à Rouen, est un spationaute français. Formation d'ingénieur
+                                aéronautique et de l'espace à Toulouse</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/ESAThomasPesquet" target="_blank"><i
+                                        class="ti-facebook" class="ti-linkedin"></i> </a>
+                                <a href="https://www.instagram.com/thom_astro/" target="_blank"><i
+                                        class="ti-instagram"></i></a>
+                                <a href="https://twitter.com/Thom_astro" target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/claudie_haignere-1.jpg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Claudie Haigneré</h5>
+                            <p>Née le 13 mai 1957 au Creusot, est une scientifique, spationaute et femme politique
+                                française, présidente
+                                d'Universcience à Paris entre 2010 et 2015 jusqu'en 2020.</p>
+                            <div class="socials">
+                                <a href="https://www.instagram.com/explore/tags/claudiehaignere/" target="_blank"><i
+                                        class="ti-facebook"></i> </a>
+                                <a href="https://www.instagram.com/explore/tags/claudiehaignere/" target="_blank"><i
+                                        class="ti-instagram"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Frcharue"
+                                    target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/Sophie_Adenot.jpeg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Sophie Adenot</h5>
+                            <p>Née le 5 juillet 1982 à Cosne-Cours-sur-Loire, est une militaire, ingénieure et
+                                astronaute française.
+                                Lieutenante-colonelle de l'Armée de l'air et de l'espace, elle y est pilote
+                                d'hélicoptère.</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/p/Sophie-Adenot-100088253074388/?_rdr"
+                                    target="_blank"><i class="ti-facebook"></i> </a>
+                                <a href="https://www.instagram.com/soph_astro/" target="_blank"><i
+                                        class="ti-instagram"></i></a>
+                                <a href="https://twitter.com/Soph_astro" target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/JL_Chretien_500.jpg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Jean-Loup Chrétien</h5>
+                            <p>Jean-Loup Jacques Marie Chrétien, né le 20 août 1938 à La Rochelle, est un général de
+                                brigade aérienne français, pilote
+                                de chasse dans l'armée de l'air et spationaute au Centre national d'études.</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/astrojeanloup" target="_blank"><i
+                                        class="ti-facebook"></i> </a>
+                                <a href="https://www.linkedin.com/in/jean-loup-chretien-a597988/" target="_blank"><i
+                                        class="ti-linkedin"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FChretienLoup"
+                                    target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/Patrick_Baudry.jpg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Patrick Baudry</h5>
+                            <p>né le 6 mars 1946, à Douala, au Cameroun, est un ancien pilote de chasse de l'Armée de
+                                l'air française, pilote d'essais,
+                                pilote de ligne et instructeur pilote de ligne, pilote professionnel d'hélicoptères..
+                            </p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/SpaceCampPatrickBaudry/" target="_blank"><i
+                                        class="ti-facebook"></i> </a>
+                                <a href="https://www.linkedin.com/in/pbaudry/" target="_blank"><i
+                                        class="ti-linkedin"></i></a>
+                                <a href="https://www.youtube.com/channel/UC2gf2r-O8JvVbEjaN8CpNmQ" target="_blank"><i
+                                        class="ti-youtube"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FPBaudryAstro"
+                                    target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-center mb-4">
+                        <img class="card-img-top inset" src="assets/imgs/Nos_astros/jfclervoy.jpg">
+                        <div class="card-body">
+                            <h6 class="small text-primary font-weight-bold">ASTRO</h6>
+                            <h5 class="card-title">Jean-François Clervoy</h5>
+                            <p>né le 19 novembre 1958 à Longeville-lès-Metz, est un ingénieur français et spationaute à
+                                l'Agence spatiale européenne.
+                                Il est vétéran de trois missions spatiales avec la NASA.</p>
+                            <div class="socials">
+                                <a href="https://www.facebook.com/astrojfclervoy/" target="_blank"><i
+                                        class="ti-facebook"></i> </a>
+                                <a href="https://www.instagram.com/astro_jfclervoy/" target="_blank"><i
+                                        class="ti-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/jean-fran%C3%A7ois-clervoy/" target="_blank"><i
+                                        class="ti-linkedin"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fastro_JFrancois"
+                                    target="_blank"><i class="ti-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of equipe Sectoin -->
+
+    <!-- Quelques chiffres Section -->
+    <section class="has-bg-img bg-img-2">
+        <div class="container text-center">
+            <h6 class="section-subtitle">Le programme spatial de l'UE</h6>
+            <h6 class="section-title mb-6">Quelques chiffres</h6>
+            <div class="widget-2">
+                <div class="widget-item">
+                    <i class="ti-money"></i>
+                    <h6 class="title">13,2</h6>
+                    <div class="subtitle">Milliards total</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-money"></i>
+                    <h6 class="title">8 </h6>
+                    <div class="subtitle">Milliards Galileo</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-money"></i>
+                    <h6 class="title">4,81</h6>
+                    <div class="subtitle">Milliards Copernicus</div>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-money"></i>
+                    <h6 class="title">392</h6>
+                    <div class="subtitle">Millions SSA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de Quelques chiffres Section -->
+
+    <!-- Temoigne Section -->
+    <section id="temoigne">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Témoignage</h6>
+            <h6 class="section-title text-center mb-6">Les astronautes racontent</h6>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="temoigne-wrapper">
+                        <div class="img-holder">
+                            <img src="assets/imgs/Temoignage/astronaut_spaceman1.png" alt="témoignage_1">
+                        </div>
+                        <div class="body">
+                            <p class="subtitle">Moi, c'était mon rêve d'aller dans l'espace et je suis content de
+                                l'avoir fait. Et je vois l'effet que cela a eu en
+                                France sur les jeunes, je trouve ça super. Mais, moi, dans ma vie, dans mon couple, ou
+                                dans ma vie personnelle,
+                                qu'est-ce qu'il y a eu de positif ? Il y a du négatif aussi. Mais on n’a pas toujours
+                                envie de s’attarder là-dessus.
+                                Tout ça, ce n’est pas que du rêve.</p>
+                            <h6 class="title">Thomas Pesquet</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="temoigne-wrapper">
+                        <div class="img-holder">
+                            <img src="assets/imgs/Temoignage/astronaut_spaceman2.jpg" alt="témoignage_2">
+                        </div>
+                        <div class="body">
+                            <p class="subtitle">He famously referred to this achievement as “one small step for man, one
+                                giant leap for mankind.” However, Armstrong
+                                insisted that he actually said “one small step for a man,” and annotated the APS's copy
+                                of the transcript accordingly. </br> Neil Armstrong passed away on Aug. 25, 2012.</p>
+                            <h6 class="title">Neil Armstrong</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de Temoigne Section -->
+
+    <!-- Video boutton Section -->
+    <section class="has-bg-img py-lg">
+        <div class="container text-center">
+
+            <!-- Button trigger modal -->
+            <h6 class="section-title mt-4">Qu’est-ce que le programme Copernicus ? </br> Visualisez notre vidéo.</h6>
+            <button title="youtube" type="button" class="btn btn-outline-primary play-control" data-toggle="modal"
+                data-target="#exampleModalCenter">
+                <i class="ti-control-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- Fin de Video boutton Section -->
+
+    <!-- Modal = JavaScript modal extension de Bootstrap -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe width="100%" height="475" src="https://www.youtube.com/embed/MGJss4lDaBo?si=FT7YJUcTL2Jrc7va"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Des nouvelles</h6>
+            <h6 class="section-title mb-6 text-center">Notre Blog</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/Blog/Copernic_data_blog.png" alt="blog_1">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i>95</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i>150</a>
+                            </div>
+                            <h5 class="card-title">Accès aux données Copernicus</h5>
+                            <p>Copernicus est la composante d'observation de la Terre du programme spatial de l'Union
+                                européenne, cofinancé avec
+                                l'Agence spatiale européenne (ESA). L'ESA, à qui l'initiative Copernicus Data Access a
+                                été déléguée par la Commission
+                                européenne.</p>
+                            <a href="https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&toTime=2024-01-22T03%3A37%3A49.388Z"
+                                class="d-block mt-3" target="_blank">Découvrez notre App <i class="ti-android"></i></a>
+                            <a href="https://medium.com/sentinel-hub/new-copernicus-data-access-service-to-support-the-ecosystem-for-earth-observation-412f829355a3"
+                                class="d-block mt-3" target="_blank">Lisez notre blog <i class="ti-book"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/Blog/Copernicus_article.jpg" alt="blog_2">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i>434</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i>987</a>
+                            </div>
+                            <h5 class="card-title">Copernicus</h5>
+                            <p>Le programme est dirigé par la Commission européenne (CE) au sein de de l'Union
+                                européenne et est mis en œuvre en
+                                partenariat avec les États membres, l'Agence spatiale européenne (ESA), l'Organisation
+                                européenne pour l'exploitation de
+                                satellites météorologiques (EUMETSAT), le Centre prévisions météorologiques.</p>
+                            <a href="https://www.belspo.be/belspo/space/euCopernicus_fr.stm" class="d-block mt-3"
+                                target="_blank">En Savoir Plus...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-post my-4 my-sm-5 my-md-0">
+                        <img src="assets/imgs/Blog/earth_satellite_Iridium.jpg" alt="blog_3">
+                        <div class="card-body">
+                            <div class="details mb-3">
+                                <a href="javascript:void(0)"><i class="ti-comments"></i>252</a>
+                                <a href="javascript:void(0)"><i class="ti-eye"></i>725</a>
+                            </div>
+                            <h5 class="card-title">Blog sur Medium</h5>
+                            <p>L'obligation de surveiller et de contrôler les subventions importantes de la Politique
+                                agricole commune (PAC) accordées
+                                chaque année à des millions de parcelles agricoles dans tous les États membres européens
+                                (EM) a stimulé le progrès
+                                technologique et l'adoption de toutes les technologies géospatiales y compris la
+                                télédétection.</p>
+                            <a href="blog_scientifique.html" class="d-block mt-3" target="_blank">En Savoir
+                                Plus...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Blog Section -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="infos">
+                    <h6 class="section-title mb-4">Nous Contacter</h6>
+
+
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>N° Téléphone</h5>
+                            <p>+33 1 49 40 67 89</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Adresse Mail</h5>
+                            <p><a href="mailto:info@univ-paris8.fr">info@univ-paris8.fr</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-world"></i>
+                        <div class="mb-0">
+                            <h5>Site Web Officiel</h5>
+                            <p><a href="http://www.univ-paris8.fr" target="_blank">Université Paris 8 Vincennes -
+                                    Saint-Denis</a></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p>2 Rue de la Liberté, 93200 Saint-Denis</p>
+                            <iframe title="Paris VIII"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.4237630852413!2d2.3598444763457835!3d48.945416371344095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6695017810e3d%3A0x95196baf9263e53a!2sUniversit%C3%A9%20Paris%208%20Vincennes%20-%20Saint-Denis!5e0!3m2!1sfr!2sfr!4v1704934596800!5m2!1sfr!2sfr"
+                                width="280" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+
+                    <h6 class="section-title mb-4">Disponible 24/7</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" id="EntrezEmail"
+                                aria-describedby="emailHelp" placeholder="Entrez votre adresse mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="TapezMdp"
+                                placeholder="Mot de Passe" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="7"
+                                class="form-control form-control-lg" placeholder="Saisissez votre Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Contact Section -->
+
+    <!-- Footer -->
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">A PROPOS</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="assets/imgs/logo@2x.png" alt="logo">
+                                <h6>Mon Site</h6>
+                            </a>
+                            <p class="mt-3">
+                                &copy; Avertissement : je ne possède pas les droits sur les photos, vidéos et sur les
+                                textes utilisés sur ce site web.
+                                Tous les droits appartiennent aux propriétaires. Aucune violation du droit d'auteur
+                                prévue. <br>
+                                Ce site web est créé pour un devoir maison de 2024 pour - Master 1 Géomatique (G2M) de
+                                l'Université Paris 8.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">LIENS UTILS</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#about">A propos</a>
+                                    <a href="#service">Service</a>
+                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#temoigne">Temoigne</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#equipe">Equipe</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="https://www.univ-paris8.fr/FAQ" target="_blank">FAQ</a>
+                                    <a href="https://www.univ-paris8.fr/Politique-de-confidentialite"
+                                        target="_blank">Confidentialité</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">INFORMATIONS DE CONTACT</h6>
+                        </li>
+                        <li class="list-body">
+                            <p>Contactez nous et nous reviendrons vers vous sous 24h.</p>
+                            <p><i class="ti-location-pin"></i> 2 Rue de la Liberté, 93200 Saint-Denis</p>
+                            <p><i class="ti-email"></i> info@univ-paris8.fr</p>
+                            <div class="social-links">
+                                <a href="https://twitter.com/UnivParis8" target="_blank" class="link"><i
+                                        class="ti-twitter-alt"></i></a>
+                                <a href="https://www.facebook.com/Paris8" target="_blank" class="link"><i
+                                        class="ti-facebook"></i></a>
+                                <a href="https://vimeo.com/paris8webtv" target="_blank" class="link"><i
+                                        class="ti-vimeo-alt"></i></a>
+                                <a href="https://www.linkedin.com/company/universit-paris-8-vincennes-saint-denis/"
+                                    target="_blank" class="link"><i class="ti-linkedin"></i></a>
+                                <a href="https://www.instagram.com/univparis8/" target="_blank" class="link"><i
+                                        class="ti-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCFrdu1Rf_A9huYq-QD3ER2g" target="_blank"
+                                    class="link"><i class="ti-youtube"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Footer -->
+
+    <!-- button pour retour en haut de la page -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up ti-arrow-circle-up"></i>
+    </button>
+    <!-- script js de button pour retour en haut de la page -->
+    <script>
+        // script js de button pour retour en haut de la page
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // quand on va defiler la page ver le bas,
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        // au dela de 20px le bouton va apparaitre, sinon il sera caché
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
